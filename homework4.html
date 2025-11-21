@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>school redistrantion form</title>
+    </head>
+    <body>
+        <form oninput="x.value=(parseInt(m1.value)+parseInt(m2.value)+parseInt(m3.value)/3)"></form>
+        <fieldset>
+            <legend>school resign form</legend>
+            <label>enter students name</label>
+            <input type="text"><br><br>
+            <label>enter students grade</label>
+            <input type="text"><br><br>
+            <label>enter your gender</label><br>
+            <input type="radio">male<br>
+            <input type="radio">female<br>
+            <input type="radio">other<br>
+            <label>enter payment method</label><br>
+            <select>
+             <option value="afterschool activtes">afterschool activtes</option>
+             <option value="clubs">clubs</option>
+             <option value="school payment">school payment</option>
+            </select>
+            <input type="number" id="m1"><br>
+            <select>
+             <option value="afterschool activtes">afterschool activtes</option>
+             <option value="clubs">clubs</option>
+             <option value="school payment">school payment</option>
+            </select>
+            <input type="number" id="m2"><br>
+            <select>
+             <option value="afterschool activtes">afterschool activtes</option>
+             <option value="clubs">clubs</option>
+             <option value="school payment ">school payment</option>
+            </select>
+            <input type="number" id="m3"><br>
+             Total=<output name="x" for="m1 m2 m3"></output>
+            </fieldset>
+    </body>
+</html>
